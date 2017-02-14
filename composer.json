@@ -1,0 +1,24 @@
+{
+    "name": "dogrocker/yii2-echarts-widget",
+    "description": "ECharts widget for Yii 2 Framework.",
+    "keywords": ["yii2", "extension", "widget", "echarts"],
+    "homepage": "https://github.com/dogrocker/yii2-echarts",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kanin Peanviriyakulkit",
+            "email": "kanin.pean@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.10",
+        "npm-asset/echarts" : "3.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+           "dogrocker\\echarts\\": "src/"
+        }
+    }
+}
